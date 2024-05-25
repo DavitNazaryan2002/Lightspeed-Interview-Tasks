@@ -1,0 +1,4 @@
+rootProject.name = 'Lightspeed-Interview-Tasks'
+
+include "unique-ipv4-counter"
+include "redis-java"
