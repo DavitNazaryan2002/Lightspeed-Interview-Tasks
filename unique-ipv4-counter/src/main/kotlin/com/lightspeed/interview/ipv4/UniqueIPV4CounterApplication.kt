@@ -24,7 +24,7 @@ fun findUniqueIpv4Count(file: File): Long {
     // BitSet for checking long values that can be turned to positive integers: 1 to 2147483647
     val smallerValuesBitSet = BitSet(Int.MAX_VALUE)
     // BitSet for checking long values that are larger than int max value: 2147483648 to 4294967295
-    val largerValuesBitSet = BitSet()
+    val largerValuesBitSet = BitSet(Int.MAX_VALUE)
 
     // since 0 is out of range for the bitsets, will have to use separate variables
     var lowZeroCount = 0
